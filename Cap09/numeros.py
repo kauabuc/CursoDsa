@@ -34,4 +34,8 @@ print(arr8)
 
 lista = [[13, 22, 81], [0, 34, 59], [21, 48, 93]]
 arr9 = np.matrix(lista)
+
+print(arr9[2, 1])
+print(arr9[0:2, 1])
+arr9[1, 0] = 100
 print(arr9)

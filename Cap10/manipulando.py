@@ -42,4 +42,4 @@ dsa_df[dsa_df.Segmento.str.endswith("mer")].head()
 
 
 dsa_df['Ano'] = dsa_df['ID_Pedido'].str.split("-").str[1]
-print(dsa_df.head())
+# print(dsa_df.head())
